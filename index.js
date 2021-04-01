@@ -18,7 +18,7 @@ function c_productos(req, res) {
 }
 
 function c_server(req, res) {
-    console.log('port: 8000');
+    console.log('port: 5000');
 }
 
-var server = app.listen(8000, c_server);
+var server = app.listen(5000, c_server);
